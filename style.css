@@ -1,8 +1,11 @@
+@import url(./styles/header.css);
+
 :root {
     --cor-principal: #8CFE34;
     --cor-secundaria: #4DC5FF;
     --fundo-principal: #5F5A5A;
     --fundo-secundario: #827D7D;
+    --branco: #fff;
 }
 
 body {

@@ -1,0 +1,42 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--fundo-secundario);
+    height: 64px;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.cabecalho__icone, .cabecalho__pesquisa__texto, .cabecalho__pesquisa__enviar, .cabecalho__navegacao__icone {
+    height: 32px;
+}
+
+.cabecalho__pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 128px);
+    background-color: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 10px;
+}
+
+.cabecalho__pesquisa__texto {
+    font-size: 50%;
+    width: calc(100vw - 166px);
+    border: 1px solid var(--branco);
+    border-radius: 10px;
+    outline: none;
+}
+
+.cabecalho__pesquisa__enviar {
+    width: 32px;
+    background-image: url(../img/icone-pesquisa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.cabecalho__navegacao__icone--invisivel-mobile {
+    display: none;
+}
