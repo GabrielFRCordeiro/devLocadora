@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url(./styles/header.css);
+@import url(./styles/footer.css);
 
 :root {
     --cor-principal: #8CFE34;
@@ -10,4 +12,8 @@
 
 body {
     background-color: var(--fundo-principal);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }

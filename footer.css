@@ -1,0 +1,62 @@
+.rodape {
+    background-color: var(--fundo-secundario);
+    height: 32px;
+}
+
+.rodape__informacoes {
+    display: none;
+}
+
+.rodape__copyright {
+    color: var(--cor-secundaria);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    line-height: 32px;
+}
+
+@media screen and (min-width: 540px) {
+    .rodape {
+        height: 128px;
+    }
+
+    .rodape__informacoes {
+        display: flex;
+        justify-content: space-around;
+        height: 96px;
+    }
+
+    .rodape__informacoes__servicos, .rodape__informacoes__contato {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .rodape__informacoes__servicos__link, .rodape__informacoes__contato__link {
+        text-decoration: none;
+        color: var(--cor-principal);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rodape {
+        height: 256px;
+    }
+
+    .rodape__informacoes {
+        height: 224px;
+    }
+
+    .rodape__informacoes__servicos, .rodape__informacoes__contato {
+        gap: 16px;
+        margin: 16px;
+        font-size: 18px;
+    }
+
+    .rodape__copyright {
+        font-size: 16px;
+    }
+}
