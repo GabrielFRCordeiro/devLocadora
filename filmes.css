@@ -1,0 +1,53 @@
+.principal {
+    flex-grow: 1;
+    padding: 16px 0;
+}
+
+.principal__filmes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    grid-gap: 16px;
+    grid-template-columns: 80%;
+    justify-content: space-around;
+}
+
+.principal__filmes__filme {
+    background-color: var(--fundo-secundario);
+    border: 1px solid var(--cor-principal);
+    border-radius: 16px;
+    height: 145px;
+    display: grid;
+    grid-template-areas: 
+    "poster titulo"
+    "poster preco";
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: 45% 52%;
+}
+
+.principal__filmes__filme__poster {
+    grid-area: poster;
+    height: 128px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.principal__filmes__filme__titulo, .principal__filmes__filme__informacoes, .principal__filmes__filme__preco {
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.principal__filmes__filme__titulo {
+    grid-area: titulo;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.principal__filmes__filme__informacoes {
+    grid-area: informacoes;
+}
+
+.principal__filmes__filme__preco {
+    grid-area: preco;
+}
