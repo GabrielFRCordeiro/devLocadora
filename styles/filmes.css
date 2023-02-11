@@ -1,31 +1,98 @@
-.principal__filmes {
+.filme {
     display: grid;
+    grid-template-areas: 
+    "poster"
+    "informacoes";
     justify-items: center;
     justify-content: space-evenly;
-    padding: 16px 0;
     row-gap: 16px;
+    padding: 16px;
+    align-items: center;
 }
 
-.principal__filmes__poster {
-    height: 256px;
-    border: 1px solid var(--cor-principal);
+.filme__poster {
+    grid-area: poster;
+    height: 50vh;
+    border: 1px solid transparent;
     border-radius: 5px;
 }
 
+.filme__informacoes {
+    grid-area: informacoes;
+    height: 100%;
+    color: var(--cor-secundaria);
+    display: grid;
+    row-gap: 8px;
+}
+
+.filme__informacoes__titulo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.filme__informacoes__resumo {
+    font-size: 16px;
+    text-align: start;
+}
+
+.filme__informacoes__preco {
+    font-size: 16px;
+    text-align: end;
+}
+
 @media screen and (min-width: 540px) {
-    .principal__filmes {
-        grid-template-columns: 50% 50%;
+    .filme {
+        grid-template-areas: 
+        "poster informacoes";
+        column-gap: 16px;
+    }
+
+    .filme__informacoes {
+        row-gap: 16px;
+    }
+
+    .filme__informacoes__titulo {
+        align-self: start;
+    }
+
+    .filme__informacoes__resumo {
+        align-self: center;
+    }
+
+    .filme__informacoes__preco {
+        align-self: end;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .principal__filmes {
-        grid-template-columns: 30% 30% 30%;
+    .filme {
+        grid-template-columns: 30% 50%;
+    }
+
+    .filme__informacoes__titulo {
+        font-size: 38px;
+        align-self: start;
+    }
+
+    .filme__informacoes__resumo, .filme__informacoes__preco {
+        font-size: 19px;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .principal__filmes {
-        grid-template-columns: 20% 20% 20% 20%;
+    .filme {
+        padding: 32px;
+    }
+    
+    .filme__informacoes {
+        row-gap: 32px;
+    }
+
+    .filme__informacoes__titulo {
+        font-size: 48px;
+    }
+
+    .filme__informacoes__resumo, .filme__informacoes__preco {
+        font-size: 24px;
     }
 }

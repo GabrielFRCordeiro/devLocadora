@@ -1,0 +1,31 @@
+.principal__filmes {
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 16px 0;
+    row-gap: 16px;
+}
+
+.principal__filmes__poster {
+    height: 256px;
+    border: 1px solid var(--cor-principal);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 540px) {
+    .principal__filmes {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .principal__filmes {
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .principal__filmes {
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+}
