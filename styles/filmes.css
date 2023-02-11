@@ -40,6 +40,20 @@
     text-align: end;
 }
 
+.filme__informacoes__botoes {
+    text-align: center;
+}
+
+.filme__informacoes__botoes__favoritar, .filme__informacoes__botoes__sacola {
+    width: 100%;
+    margin-top: 16px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px;
+}
+
 @media screen and (min-width: 540px) {
     .filme {
         grid-template-areas: 
@@ -65,10 +79,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .filme {
-        grid-template-columns: 30% 50%;
-    }
-
     .filme__informacoes__titulo {
         font-size: 38px;
         align-self: start;
@@ -76,6 +86,10 @@
 
     .filme__informacoes__resumo, .filme__informacoes__preco {
         font-size: 19px;
+    }
+
+    .filme__informacoes__botoes__favoritar, .filme__informacoes__botoes__sacola {
+        font-size: 16px;
     }
 }
 
