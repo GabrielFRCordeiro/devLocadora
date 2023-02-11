@@ -11,7 +11,7 @@
 
 .informacoes__usuario {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: auto auto;
     border: 1px solid transparent;
     border-radius: 8px;
     background-color: var(--fundo-secundario);
