@@ -2,6 +2,7 @@
 @import url(./styles/header.css);
 @import url(./styles/principal.css);
 @import url(./styles/filmes.css);
+@import url(./styles/usuario.css);
 @import url(./styles/footer.css);
 
 :root {

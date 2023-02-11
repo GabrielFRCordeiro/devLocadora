@@ -1,0 +1,32 @@
+/* perfil */
+
+.informacoes {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 12% 24% 24% 24%;
+    row-gap: 8px;
+    align-items: center;
+    padding: 16px;
+}
+
+.informacoes__usuario {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: var(--fundo-secundario);
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    column-gap: 16px;
+}
+
+.informacoes__usuario__dados__nome {
+    font-size: 24px;
+    color: var(--cor-principal);
+}
+
+.informacoes__usuario__dados__senha, .informacoes__usuario__dados__email {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+}
