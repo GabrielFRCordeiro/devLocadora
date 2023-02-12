@@ -37,5 +37,5 @@
     <p>Gabriel Cordeiro</p>
   </a>
   
-<h2 align="center">Licensa</h2>
+<h2 align="center">Licença</h2>
   <p>GPL-3.0 license</p>
