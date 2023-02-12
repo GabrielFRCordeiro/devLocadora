@@ -7,7 +7,18 @@
 </h1>
 
 <h2 align="center">Descrição do Projeto</h2>
-Site de venda de filmes.
+  <p>Case de site de vendas.</p>
+  <p>Compre filmes e aprenda mais sobre o mundo da programação com eles!</p>
+
+<h2 align="center">Funcionalidades</h2>
+  <p>Clique no poster do filme que deseja comprar para acessar sua página.</p>
+  <!-- adicionar gif -->
+
+  <p>Clique nos ícones da navegação para acessar sua sacola de compras, seus favoritos e seu perfil.</p>
+  <!-- adicionar gif -->
+
+  <p>Depois de escolher os filmes que quer comprar, vá em sua sacola e clique no botão "Finalizar compra".</p>
+  <!-- adicionar gif -->
 
 <h2 align="center">Tecnologias</h2>
   <a href="https://html.com/" target="_blank">
@@ -22,6 +33,9 @@ Site de venda de filmes.
 
 <h2 align="center">Autor</h2>
   <a href="https://www.linkedin.com/in/gabrielfrcordeiro/" target="_blank">
-      <img src="https://avatars.githubusercontent.com/u/120519526?v=4" height=40>
-      <p>Gabriel Cordeiro</p>
+    <img src="https://avatars.githubusercontent.com/u/120519526?v=4" height=40>
+    <p>Gabriel Cordeiro</p>
   </a>
+  
+<h2 align="center">Licensa</h2>
+  <p>GPL-3.0 license</p>
