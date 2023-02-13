@@ -38,4 +38,4 @@
   </a>
   
 <h2 align="center">Licença</h2>
-  <p>GPL-3.0 license</p>
+  <a href="https://github.com/GabrielFRCordeiro/devLocadora/blob/main/LICENSE">GPL-3.0 license</a>
