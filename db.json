@@ -1,0 +1,76 @@
+{
+    "filmes": [
+        {
+            "titulo": "Vingadores Ultimato",
+            "pagina": "pages/vingadores-ultimato.html",
+            "poster": "img/posters/vingadores-ultimato.jpg",
+            "altPoster": "poster do filme Vingadores Ultimato",
+            "descricao": "Assista esse filme sobre uma das principais soft skills de um dev front-end: trabalho em equipe!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "Knives Out",
+            "pagina": "pages/knives-out.html",
+            "poster": "img/posters/knives-out.jpg",
+            "altPoster": "poster do filme Knives Out",
+            "descricao": "Pratique sua lógica com esse filme de mistério!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "Kung Fu Panda",
+            "pagina": "pages/kung-fu-panda.html",
+            "poster": "img/posters/kung-fu-panda.jpg",
+            "altPoster": "poster do filme Kung Fu Panda",
+            "descricao": "Lembre-se de nunca desistir do seu sonho, independente se ele é ser um programador ou um mestre das artes marciais!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "De Volta Para o Futuro",
+            "pagina": "pages/de-volta-para-o-futuro.html",
+            "poster": "img/posters/de-volta-para-o-futuro.jpg",
+            "altPoster": "poster do filme De Volta Para o Futuro",
+            "descricao": "Desenvolva sua capacidade de problem solving pensando em como Marty McFly pode voltar para seu tempo!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "O Galinho Chicken Little",
+            "pagina": "pages/o-galinho-chicken-little.html",
+            "poster": "img/posters/o-galinho-chicken-little.jpg",
+            "altPoster": "poster do filme O Galinho Chicken Little",
+            "descricao": "Aprenda a importância da comunicação!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "Batman v Superman",
+            "pagina": "pages/batman-v-superman.html",
+            "poster": "img/posters/batman-v-superman.jpg",
+            "altPoster": "poster do filme Batman v Superman",
+            "descricao": "Muitos amam e muitos odeiam esse filme. Pratique seu raciocínio crítico assistindo este filme!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "Procurando Nemo",
+            "pagina": "pages/procurando-nemo.html",
+            "poster": "img/posters/procurando-nemo.jpg",
+            "altPoster": "poster do filme Procurando Nemo",
+            "descricao": "Se estiver pensando em desistir do sonho da programação, veja esse filme e se lembre de continuar a nadar!",
+            "preco": 42.0,
+            "favorito": false
+        },
+        {
+            "titulo": "Uma Cilada Para Roger Rabbit",
+            "pagina": "pages/roger-rabbit.html",
+            "poster": "img/posters/roger-rabbit.jpg",
+            "altPoster": "poster do filme Uma Cilada Para Roger Rabbit",
+            "descricao": "A criatividade é muito importante para um dev front-end. Veja esse filme para desenvolver a sua!",
+            "preco": 42.0,
+            "favorito": false
+        }
+    ]
+}

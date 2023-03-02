@@ -6,7 +6,11 @@
     row-gap: 16px;
 }
 
-.principal__filmes__poster {
+.principal__filmes__filme {
+    list-style: none;
+}
+
+.principal__filmes__filme__poster {
     height: 256px;
     border: 1px solid var(--cor-principal);
     border-radius: 5px;
